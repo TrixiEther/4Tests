@@ -1,11 +1,11 @@
 bug:
 - any:
-    - base-branch: ['main-*']
+    - base-branch: ['main']
     - head-branch: ['bug']
 
 enhancement:
 - any:
-    - base-branch: ['main-*']
+    - base-branch: ['main']
     - head-branch: ['enhancement']
 
 documentation:
