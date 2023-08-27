@@ -1,0 +1,13 @@
+bug:
+- any:
+    - base-branch: ['main-*']
+    - head-branch: ['*/bug/*']
+
+enhancement:
+- any:
+    - base-branch: ['main-*']
+    - head-branch: ['*/enhancement/*']
+
+documentation:
+- any:
+    - changed-files: ['README.md']
