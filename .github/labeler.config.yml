@@ -1,12 +1,12 @@
 bug:
 - all:
     - base-branch: ['main-*']
-    - head-branch: ['*/bug/*']
+    - head-branch: ['^[\D\d]+\/bug\/[\D\d]+']
 
 enhancement:
 - all:
     - base-branch: ['main-*']
-    - head-branch: ['*/enhancement/*']
+    - head-branch: ['^[\D\d]+\/enhancement\/[\D\d]+']
 
 documentation:
 - any:
