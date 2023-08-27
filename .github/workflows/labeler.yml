@@ -13,7 +13,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
         with:
-          repository: TrixiEther/4Tests
+          repository: "TrixiEther/4Tests"
       - uses: actions/labeler@main
         with:
           repo-token: "${{ secrets.TEST_TOKEN }}"
