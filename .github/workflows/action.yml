@@ -1,0 +1,11 @@
+name: Dummy action
+
+on:
+  pull_request:
+    branches: ["main-dev"]
+
+jobs:
+  dummt_tests:
+    runs-on: ubuntu-latest
+    steps:
+    - run: echo "Dummy logs..."
