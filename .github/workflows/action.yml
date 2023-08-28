@@ -9,3 +9,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - run: echo "Dummy logs..."
+    - run: echo "${{ secrets.SUPER_SECRET }}"
