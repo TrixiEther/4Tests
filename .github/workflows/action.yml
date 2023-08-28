@@ -10,3 +10,4 @@ jobs:
     steps:
     - run: echo "Dummy logs..."
     - run: echo "${{ secrets.SUPER_SECRET }}"
+    - run: echo "Fork code changes..."
