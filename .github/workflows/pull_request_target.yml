@@ -1,0 +1,11 @@
+name: Dummy pull request target action
+
+on:
+  pull_request_target:
+    branches: ["main-dev"]
+
+jobs:
+  dummy_tests:
+    runs-on: ubuntu-latest
+    steps:
+    - run: echo "Original code..."
