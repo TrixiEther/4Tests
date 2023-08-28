@@ -11,3 +11,7 @@ enhancement:
 documentation:
 - any:
     - changed-files: ['README.md']
+
+workflow:
+- any:
+    - changed-files: ['.github/**']
