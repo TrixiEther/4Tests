@@ -12,4 +12,4 @@ jobs:
         with:
           project: Test
           column: Code Review
-          repo-token: ${{ secrets.TEST_TOKEN }}
+          repo-token: ${{ secrets.GHSECRET_TOKEN }}
