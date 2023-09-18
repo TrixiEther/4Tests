@@ -21,6 +21,7 @@ jobs:
       with: 
         repository: ${{ secrets.META_DASHCHAN_REPO }}
         path: meta/
+    - run: ls -l
     - run: sudo apt-get -y install git
     - run: |
         cd meta
