@@ -1,0 +1,15 @@
+name: Python runner - test
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  test_python:
+    runs_on: ubuntu-latest
+    steps:
+    - run: echo "Hello"
+
+
+    
