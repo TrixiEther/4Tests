@@ -9,6 +9,8 @@ jobs:
   test_python:
     runs-on: ubuntu-latest
     steps:
+    - name: Install aapt
+      run: apt-get -y install aapt
     - name: Install python
       uses: actions/setup-python@v4
       with:
