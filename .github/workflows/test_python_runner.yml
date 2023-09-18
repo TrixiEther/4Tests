@@ -27,6 +27,13 @@ jobs:
         git checkout master
         git status
     - run: python meta/generate.py
+    - run: |
+        mkdir test1
+        mkdir test2
+        echo "Hello" > test1/1.file
+        echo "Holla" > test1/2.file
+        ls test1 | xargs -I something cp test1/something test2/something
+        ls test2
 
 
     
