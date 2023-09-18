@@ -21,6 +21,11 @@ jobs:
       with: 
         repository: ${{ secrets.META_DASHCHAN_REPO }}
         path: meta/
+    - run: sudo apt-get -y install git
+    - run: |
+        cd meta
+        git checkout main-dev
+        git status
     - run: python meta/generate.py
 
 
