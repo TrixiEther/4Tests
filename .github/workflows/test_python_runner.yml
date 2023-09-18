@@ -34,6 +34,8 @@ jobs:
         echo "Holla" > test1/2.file
         ls test1 | xargs -I something cp test1/something test2/something
         ls test2
+        ls test1 | xargs -I something cp test1/something test2/something
+        ls test2
 
 
     
