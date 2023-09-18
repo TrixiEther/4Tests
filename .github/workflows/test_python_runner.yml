@@ -3,7 +3,7 @@ name: Python runner - test
 on:
   push:
     branches:
-      - master
+      - main-dev
 
 jobs:
   test_python:
