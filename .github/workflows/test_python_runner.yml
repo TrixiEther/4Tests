@@ -24,7 +24,7 @@ jobs:
     - run: ls -l
     - working-directory: meta
       run: |
-        git checkout main-dev
+        git checkout master
         git status
     - run: python meta/generate.py
 
